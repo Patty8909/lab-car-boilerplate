@@ -1,1 +1,104 @@
-/* Los estilos de tu proyecto */
+.bg-image {
+    background-image: url("../assets/images/taxi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+}
+.bg-image-m {
+    background-image: url("../assets/images/taxi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 60vh;
+}
+.bg-image2 {
+    background-image: url("../assets/images/conduce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+}
+.bg-color1 {
+    background-color: #F7B617;
+}
+.bg-color2 {
+    background-color: #2B2B2B;
+}
+.text-white {
+    color: #ffffff;
+}
+.text-black {
+    color: black;
+}
+.btn-color1 {
+    background-color: #ffffff;
+    border: none;
+}
+.btn-color2 {
+    background-color: #F7B617;
+    border: none;
+}
+.border {
+    border: 1px solid #ffffff;
+}
+.list-style {
+    list-style: none;
+    line-height: 30px;
+}
+.box-style {
+    padding: 20px 20px 50px 20px;
+}
+.section1 {
+    margin-top: 10%;
+}
+.line::after, .line::before {
+    content: " ";
+    display: inline-block;
+    height: 1px;
+    width: 80px;
+    background-color: #ffffff;
+}
+.space {
+    padding: 0 60px;
+}
+.s3-style {
+    background-color: gray;
+    opacity: 0.7;
+    height: 50vh;
+    padding: 20px;
+}
+
+.section3 {
+    margin: 20% 0 10% 0;
+}
+hr {
+    border: 1px solid white;
+}
+.hr {
+    width: 96%;
+    margin-left: 2%;
+
+}
+.footer {
+    padding: 1.5%;
+}
+
+@media (min-width: 425px) {
+    .view-mobile {
+        display: none;
+    }
+    .section2 {
+        margin: 20px 20px 20px 0;
+        padding: 20px;
+        border-top: 3px solid #ffffff;
+        border-right: 3px solid #ffffff;
+        border-bottom: 3px solid #ffffff;
+    }
+    
+}
+@media (max-width: 425px) {
+    .view-desktop {
+        display: none;
+    }
+}
