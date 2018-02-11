@@ -82,6 +82,17 @@ hr {
 }
 .footer {
     padding: 1.5%;
+    text-align: center;
+}
+.hov:hover {
+    background-color: gray;
+}
+.btn-colorMod {
+    background-color: rgb(36, 28, 28);
+    border: none;
+}
+.logo-space {
+    padding: 20px 20px 0px 20px;
 }
 
 @media (min-width: 425px) {
