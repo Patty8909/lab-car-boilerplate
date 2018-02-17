@@ -6,4 +6,4 @@ Además contiene un mapa de google que incluye un marcador para indicar una ubic
 
 ## Versión Desktop:
 
-![Sin titulo](assets/images/v-desktop.png)
+![v-desktop](https://user-images.githubusercontent.com/32307161/36345773-55c6a582-13ff-11e8-8f97-566af4403e64.png)
